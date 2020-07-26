@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4bb289b7-8ce8-4612-9b93-41a0069d03f1" xmlns="http://schemas.uipath.com/workflow/activities" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Target.TimeoutMS>
+    <p:InArgument x:TypeArguments="x:Int32" />
+  </Target.TimeoutMS>
+  <Target.WaitForReady>
+    <p:InArgument x:TypeArguments="WaitForReady" />
+  </Target.WaitForReady>
+</Target>
